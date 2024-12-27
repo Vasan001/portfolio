@@ -415,7 +415,7 @@ section .content{
 section .title{
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 section .title span{
   color: #0E2431;
@@ -831,7 +831,7 @@ footer .text span a:hover{
 }
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
   .home .text-two{
     font-size: 55px;
   }
@@ -839,8 +839,18 @@ footer .text span a:hover{
     font-size: 33px;
   }
   .skills-details .boxes .per{
-    font-size: 50px;
+    font-size: 40px;
     color: #4070f4;
+  }
+  p{
+    font-size: 11px;
+  }
+  h2{
+    font-size: small;
+  }
+  
+  .skills-details .text .topic {
+    font-size: small;
   }
 }
 
