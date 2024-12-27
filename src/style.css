@@ -415,7 +415,7 @@ section .content{
 section .title{
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 section .title span{
   color: #0E2431;
@@ -447,6 +447,7 @@ section .title span::after{
   display: flex;
   justify-content: center; /* Horizontally center content */
   align-items: center; /* Vertically center content */
+  
  
   box-sizing: border-box;
 }
@@ -512,6 +513,7 @@ section .button button:hover{
    justify-content: center; /* Horizontally center the content */
    align-items: center; /* Vertically center the content */
    padding: 20px;
+   
    box-sizing: border-box;
  }
  .skills-details {
@@ -538,9 +540,7 @@ section .button button:hover{
   font-size: 1.5rem;
   color: #4caf50; /* You can change the color */
 }
- .skills .content{
-   padding: 30px 0;
- }
+ 
  .skills .skills-details{
    display: flex;
    justify-content: space-between;
@@ -669,7 +669,7 @@ section .button button:hover{
 .topic {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 p {
@@ -742,7 +742,7 @@ footer .text span a:hover{
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content{
-    width: 85%;
+    width: 100%;
   }
 }
 @media (max-width: 1000px) {
@@ -764,12 +764,7 @@ footer .text span a:hover{
     width: calc(100% / 2 - 20px);
   }
 }
-@media (max-width: 900px) {
-  .about .left img{
-    height: 350px;
-    width: 350px;
-  }
-}
+
 
 @media (max-width: 750px) {
   nav .navbar{
@@ -820,7 +815,7 @@ footer .text span a:hover{
   }
   .skills-details .text{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .skills-details .boxes{
     justify-content: center;
@@ -848,12 +843,7 @@ footer .text span a:hover{
     color: #4070f4;
   }
 }
-.arrow {
-  border: solid rgb(255, 255, 255);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 4px;
-}
+
 
 .up {
   transform: rotate(-135deg);
@@ -877,3 +867,5 @@ footer .text span a:hover{
     flex-basis: 100%; /* Each column takes full width on smaller screens */
   }
 }
+
+
