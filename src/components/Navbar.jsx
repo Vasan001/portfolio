@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className={sticky ? 'sticky' : ''}>
       <div className="navbar">
         <div className="logo">
-          <img className="logo" src="Images/logo.png" height="50px" width="50px" alt="Logo" />
+          <img className="logo" src="Images/Myphoto.png" height="50px" width="50px" alt="Logo" />
           <a href="#home" style={{ paddingLeft: '30px' }}>Portfolio</a>
         </div>
         
